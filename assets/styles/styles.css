@@ -1,0 +1,228 @@
+
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/Users/diop/Desktop/GitHub/Basic-Portfolio/assets/images/fancy-cushion.png);
+    
+}
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+p {
+    margin-left: 2%;
+    padding-right: 3%;
+    text-align: justify;
+    
+}
+.col-lg-7 {
+    padding-left: 5%;
+}
+.col-lg-12 {
+    padding-left: 50px;
+    padding-right: 70px;
+}
+.col-lg-4 {
+    padding-right: 0;
+}
+.nav-link1{
+    border-right: solid black 1px;
+    padding-right: 5px;
+}
+.nav-link2{
+    border-right: solid black 1px;
+    padding: 0 5px 0 5px
+}
+.nav-link3{
+    padding: 0 5px 0 5px;
+}
+.content {
+    background-color:grey;
+    color: white;
+    width: 960px;
+    height: auto;
+    padding:2% 20px 0 20px; 
+    margin: 2% 0 0 12%; 
+}
+.top{
+    background: grey;
+    height: 68px;
+}
+h1 {
+    color: white;
+    background: #4aaaa5;
+    width: 340px;
+    padding: 10px 15px 10px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -35px;
+}
+h2 {
+    border-bottom: solid black 1px;
+    padding: 0 10px 10px 0;
+}
+.bio {
+    padding-top: 10px;
+    text-align: left;
+}
+.par2 {
+   
+}
+.navbar-nav {
+    padding-bottom: 20%;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:active {
+    color: white;
+}
+
+@media screen and (max-width: 980px) {
+
+h1 {
+    margin-left: 35px;
+}
+h2 {
+    padding-left: 15px;
+}
+p{
+    text-align: center;
+}
+.para1 {
+    margin-top: -50%;
+    padding-left: 50%;
+}
+.container {
+    margin-left: 0;
+    padding-left: 0;
+}
+.content {
+    width: 550px;
+    margin: 2% 0 0 5%;
+}
+.col-lg-4 {
+    column-width: 200px;
+}
+.col-lg-12 {
+    padding-left: 0px; 
+    padding-right: 0px; 
+}
+.para2 {
+    padding: 0 15px 0 15px;
+}
+img {
+    margin-left: 0%;
+    padding-left: 0px;
+}
+.lnks {
+    margin-top: -10%;
+    margin-left: 90%;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        font-size: 18px;
+    }
+    .top {
+        margin-right: -133px;
+    }
+    h1 {
+        margin-left: -5px;
+    }
+    h2 {
+        padding-left: 15px;
+    }
+    p{
+        text-align: center;
+    }
+    .para1 {
+        margin-top: -50%;
+        padding-left: 50%;
+    }
+    .container {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .content {
+        width: 650px;
+        margin: 2% 0 0 15%;
+        padding-bottom: 0;
+    }
+    .col-lg-4 {
+        column-width: 200px;
+    }
+    .col-lg-12 {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+    .para2 {
+        padding: 0 15px 0 15px;
+    }
+    img {
+        margin-left: 0%;
+        padding-left: 0px;
+    }
+    .lnks {
+        margin-top: -10%;
+        margin-left: 85%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 18px;
+    }
+    .top {
+        margin-right: -15%;
+    }
+    h1 {
+        margin-left: 170px;
+    }
+    h2 {
+        padding-left: 15px;
+    }
+    p{
+        text-align: center;
+    }
+    .para1 {
+        margin-top: -50%;
+        padding-left: 50%;
+    }
+    .container {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .content {
+        width: 620px;
+        margin: 10% 0 0 10%;
+        padding-bottom: 0;
+    }
+    .col-lg-4 {
+        column-width: 200px;
+    }
+    .col-lg-12 {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+    .para2 {
+        padding: 0 15px 0 15px;
+    }
+    img {
+        margin-left: 0%;
+        padding-left: 0px;
+    }
+    .lnks {
+        padding-top: 30px;
+        margin-left: 40%;
+    }
+}
+}

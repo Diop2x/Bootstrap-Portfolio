@@ -1,0 +1,236 @@
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/Users/diop/Desktop/GitHub/Basic-Portfolio/assets/images/fancy-cushion.png);
+}
+.thumb {
+    padding-left: 10%;
+}
+.nav-link1{
+    border-right: solid black 1px;
+    padding-right: 5px;
+}
+.nav-link2{
+    border-right: solid black 1px;
+    padding: 0 5px 0 5px
+}
+.nav-link3{
+    padding: 0 5px 0 5px;
+}
+.content {
+    background-color:grey;
+    color: white;
+    width: 960px;
+    height: auto;
+    padding:2% 20px 0 20px; 
+    margin: 2% 0 0 12%; 
+}
+.col-lg-12 {
+    padding-left: 15%;
+    margin-bottom: 15px;
+}
+.col-lg-11 {
+    padding-left: 50px;
+    padding-right: 0px;
+}
+.top{
+    background: grey;
+    height: 68px;
+}
+h1 {
+    color: white;
+    background: #4aaaa5;
+    width: 340px;
+    padding: 10px 15px 10px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 7px;
+}
+h2 {
+    border-bottom: solid black 1px;
+    padding: 0 10px 10px 0;
+}
+.navbar-nav {
+    padding-bottom: 20%;  
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:active {
+    color: white;
+}
+.name{
+    color: white;
+}
+#name {
+    color: black;
+    width: 550px;
+}
+.messageslab {
+    color: white;
+}
+#message {
+    color: black;
+    width: 550px;
+    height: 180px;
+    max-width: 550px;
+    max-height: auto;
+    padding-top: 0;
+}
+.email {
+    color: white;
+}
+#email {
+    color: black;
+    width: 550px;
+}
+input[type=submit] {
+    color: white;
+    background: #4aaaa5;
+    width: auto;
+    height: auto;
+    padding: 2% 4% 2% 4%;
+    cursor: pointer;
+}
+@media screen and (max-width: 980px) {
+
+    h1 {
+        margin-left: 35px;
+    }
+    h2 {
+        padding-left: 15px;
+    }
+    #name {
+        width: 535px;
+    }
+    #email {
+        width: 535px;
+    }
+    #message {
+        width: 535px;
+    }
+    .container {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .content {
+        width: 550px;
+        margin: 2% 0 0 5%;
+    }
+    .col-lg-4 {
+        column-width: 200px;
+    }
+    .col-lg-12 {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+    .col-lg-11 {
+        padding-left: 0;
+    }
+    .lnks {
+        margin-top: -10%;
+        margin-left: 90%;
+    }
+
+    }
+    
+    @media screen and (max-width: 768px) {
+    
+        body {
+            font-size: 18px;
+        }
+        .top {
+            margin-right: -133px;
+        }
+        h1 {
+            margin-left: 30px;
+        }
+        h2 {
+            padding-left: 15px;
+        }
+        #name {
+            width: 575px;
+        }
+        #email {
+            width: 575px;
+        }   
+        #message {
+            width: 575px;
+            max-width: 600px;
+        }
+        form {
+            padding-left: 30px;
+        }
+        .container {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .content {
+            width: 650px;
+            margin: 2% 0 0 15%;
+            padding-bottom: 0;
+        }
+        .col-lg-4 {
+            column-width: 200px;
+        }
+        .col-lg-12 {
+            padding-left: 0px; 
+            padding-right: 0px; 
+        }
+        .lnks {
+            margin-top: -10%;
+            margin-left: 85%;
+        }
+    }
+    
+    @media screen and (max-width: 640px) {
+        body {
+            font-size: 18px;
+        }
+        .top {
+            margin-right: -15%;
+        }
+        h1 {
+            margin-left: 170px;
+        }
+        h2 {
+            padding-left: 15px;
+        }
+        #name {
+            width: 575px;
+        }
+        #email {
+            width: 575px;
+        }   
+        #message {
+            width: 575px;
+            max-width: 600px;
+        }
+        form {
+            padding-left: 10px;
+        }
+        .container {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .content {
+            width: 620px;
+            margin: 10% 0 0 10%;
+            padding-bottom: 0;
+        }
+        .col-lg-4 {
+            column-width: 200px;
+        }
+        .col-lg-12 {
+            padding-left: 0px; 
+            padding-right: 0px; 
+        }
+        .lnks {
+            padding-top: 30px;
+            margin-left: 40%;
+        }
+    }
+    }
