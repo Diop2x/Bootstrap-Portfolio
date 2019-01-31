@@ -1,7 +1,7 @@
 body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/Users/diop/Desktop/GitHub/Bootstrap-Portfolio/assets/images/fancy-cushion.png);
+    background-image: url("assets/images/fancy-cushion.png");
     
 }
 img {
